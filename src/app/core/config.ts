@@ -1,5 +1,6 @@
 // Base URL of the backend API. Change here if the API runs elsewhere.
-export const API_BASE = 'http://localhost:5000/api';
+export const API_BASE = 'https://schoolbe-production.up.railway.app/api';
+//schoolbe.railway.internal
 
 export const CATEGORIES = [
   'Low vision',
