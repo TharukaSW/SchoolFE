@@ -36,11 +36,7 @@ import { Auth } from '../core/auth';
           </button>
         </form>
 
-        <div class="login-demo" *ngIf="mode() === 'login'">
-          <strong>Demo accounts (after seeding):</strong><br />
-          Admin — admin&#64;school.edu / admin123<br />
-          Teacher — sarah.johnson&#64;school.edu / teacher123
-        </div>
+        
 
         <p class="center mt-2" style="font-size:13px">
           <a href="javascript:void(0)" (click)="toggle()">
